@@ -1,0 +1,330 @@
+body {
+  padding: 545px;
+  background-color: rgb(9, 9, 9);
+}
+.full-content {
+  display: flex;
+  margin-top: -500px;
+  flex-direction: column;
+}
+
+.flex-1 {
+  /* display: flex; */
+  width: 600px;
+  height: 350px;
+  background-image: url(./images/desktop/image-header.jpg);
+  background-size: 100% 100%;
+}
+.header {
+  display: flex;
+  padding: 10px;
+}
+.logo {
+  flex: 3;
+  display: flex;
+  align-items: center;
+}
+.sunny {
+  width: 90px;
+  height: 20px;
+}
+.all-navs {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+a {
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "fraunces";
+  color: white;
+}
+.button {
+  flex: 1;
+  display: flex;
+}
+.button-1 {
+  width: 80px;
+  font-family: "fraunces";
+  height: 30px;
+  background-color: white;
+  border-radius: 30px;
+  border: none;
+  font-weight: bold;
+}
+.flex-2-1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "fraunces";
+}
+.big-head {
+}
+.flex-1-head {
+  height: 100px;
+}
+
+.arrow {
+  display: flex;
+  height: 50px;
+  justify-content: center;
+}
+.arrow-1 {
+  width: 10px;
+  height: 40px;
+}
+.flex-2 {
+  display: flex;
+  width: 600px;
+  height: 300px;
+}
+.flex-2-left-side {
+  background-color: white;
+  flex: 1;
+  padding: 30px;
+}
+.flex-2-right-side {
+  flex: 1;
+}
+.flex-2-big-font {
+  display: flex;
+  color: black;
+  height: 110px;
+}
+.flex-2-big-font-1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.egg {
+  width: 300px;
+  height: 300px;
+}
+.flex-2-small-font {
+  display: flex;
+  height: 60px;
+}
+.flex-2-small-font-1 {
+  font-size: 11px;
+  color: grey;
+}
+
+.flex-2-button {
+  display: flex;
+  align-items: flex-end;
+  width: 105px;
+  border-bottom: 10px solid yellow;
+}
+.flex-2-button-1 {
+  border: none;
+  margin-top: 20px;
+  color: black;
+}
+.flex-3 {
+  display: flex;
+}
+.flex-3-left-side {
+  background-image: url(./images/desktop/image-graphic-design.jpg);
+  width: 300px;
+  height: 300px;
+  background-size: 100% 100%;
+}
+.flex-3-right-side {
+  background-image: url(./images/desktop/image-photography.jpg);
+  width: 300px;
+  height: 300px;
+  background-size: 100% 100%;
+}
+.flex-3-left-side-1 {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  padding: 60px;
+  margin-top: 120px;
+}
+.flex-3-right-side-1 {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  padding: 60px;
+  margin-top: 120px;
+}
+.flex-3-big-font {
+  display: flex;
+  justify-content: center;
+}
+.flex-3-big-font-1 {
+  font-family: "fraunces";
+  font-weight: bolder;
+}
+.flex-3-small-font {
+  font-size: 20px;
+  display: flex;
+  /* justify-content: center; */
+  text-align: center;
+}
+.flex-3-small-font-1 {
+  font-size: 10px;
+  font-family: "fraunces";
+  font-weight: bold;
+}
+.flex-3-small-font-2 {
+  font-size: 10px;
+  font-family: "fraunces";
+  font-weight: bold;
+}
+.flex-3-small-font-3 {
+  /* font-size: 20px; */
+  display: flex;
+  /* justify-content: center; */
+  text-align: center;
+}
+.flex-3-left-side-2 {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  padding: 30px;
+  margin-top: 150px;
+}
+.flex-4 {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  width: 600px;
+  padding: 0px;
+}
+.flex-4-1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  height: 70px;
+}
+.flex-4-header {
+  font-size: 12px;
+  font-family: "fraunces";
+  color: grey;
+  font-weight: bolder;
+}
+.flex-4-2 {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.flex-4-2-copy {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+.profile {
+  display: flex;
+  justify-content: center;
+}
+.profile-1 {
+  width: 30px;
+  height: auto;
+  border-radius: 15px;
+}
+.flex-4-font {
+  display: flex;
+  width: 180px;
+}
+.flex-4-font-1 {
+  font-size: 9px;
+  text-align: center;
+  font-family: "fraunces";
+  font-weight: bold;
+  line-height: 15px;
+}
+.flex-4-big-font {
+  display: flex;
+  justify-content: center;
+}
+.flex-4-big-font-1 {
+  font-size: 10px;
+  font-weight: bold;
+  font-family: "fraunces";
+}
+.flex-4-small-font {
+  display: flex;
+  justify-content: center;
+  font-family: "fraunces";
+  color: grey;
+  font-size: 10px;
+}
+.flex-4-small-font-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  font-weight: bold;
+  color: grey;
+  font-size: 10px;
+}
+.flex-5 {
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  /* background-color: red; */
+  /* width: 600px; */
+  /* height: 200px; */
+}
+
+img {
+  width: 150px;
+  height: 200px;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(164, 247, 220);
+  width: 600px;
+  height: 200px;
+}
+.footer-flex-1 {
+  display: flex;
+  height: 80px;
+  align-items: center;
+
+  justify-content: center;
+}
+.footer-flex-1-2 {
+}
+.footer-flex-2 {
+  display: flex;
+  width: 600px;
+  justify-content: center;
+  height: 30px;
+}
+.all-footer {
+  display: flex;
+  width: 200px;
+  justify-content: space-evenly;
+}
+.all-footer-1 {
+  color: rgb(5, 108, 73);
+  font-family: "fraunces";
+  font-size: 15px;
+}
+.footer-flex-3 {
+  display: flex;
+  width: 600px;
+  height: 50px;
+}
+.footer-flex-3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.all-icons {
+  display: flex;
+  width: 200px;
+  justify-content: space-evenly;
+}
+.all-icons-1 {
+  width: 15px;
+  height: 15px;
+}
